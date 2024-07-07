@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr 10fr;
+    height: 100vh;
+}
+
+.sidebar {
+    display: grid;
+    grid-row: 1/4;
+    background-color: aqua;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.searchBar {
+    display: grid;
+    grid-column: 2/3;
+    background-color: brown;
+}
+
+.header {
+    display: grid;
+    grid-column: 2/3;
+    background-color: black;
+}
+
+.content {
+    display: grid;
+    grid-column: 2/3;
+    background-color: yellow;
+}
