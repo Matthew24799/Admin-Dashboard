@@ -17,22 +17,26 @@ body {
     background-color: aqua;
 }
 
+h1 img {
+    width: 50px;
+}
+
+img {
+   width: 25px;
+}
 
 ul {
     list-style: none;
 }
 
-.searchBar {
+.header {
     display: grid;
+    grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
     grid-column: 2/3;
     background-color: brown;
 }
 
-.header {
-    display: grid;
-    grid-column: 2/3;
-    background-color: black;
-}
 
 .content {
     display: grid;
