@@ -9,6 +9,7 @@ body {
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 1fr 10fr;
     height: 100vh;
+    overflow: hidden;
 }
 
 .sidebar {
@@ -42,5 +43,13 @@ ul {
     display: grid;
     grid-template-columns: 2fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    background-color: yellow;
+    background-color: rgb(224, 224, 224);
+    gap: 10px;
+}
+
+
+.card {
+    height: 400px;
+    width: 500px;
+    background-color: white;
 }
