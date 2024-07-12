@@ -109,7 +109,7 @@ button {
 .content {
     display: grid;
     grid-template-columns: 70% 30%;
-    background-color: rgb(187, 187, 187);
+    background-color: rgb(255, 220, 220);
 }
 
 
@@ -123,8 +123,14 @@ button {
 }
 
 .article .title {
+display: flex;
+position: relative;
+bottom: 20px;
 grid-column: 1/4;
 grid-row: 1/2;
+font-size: 2rem;
+font-weight: bolder;
+
 }
 
 .card {
@@ -157,7 +163,35 @@ grid-row: 1/2;
     padding-left: 25px;
 }
 
-.news {
-    grid-column: 3/4;
-    grid-row: 1/4;
+.side {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 50px 1fr 50px 2fr;
+    padding-left: 50px;
+}
+
+.side span {
+    display: flex;
+    align-items: end;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.Announcements {
+    background-color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+}
+
+.Announcements .title {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.Announcements p {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    left: 10px;
 }
