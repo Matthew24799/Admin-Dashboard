@@ -40,6 +40,10 @@ li img {
     padding-right: 10px;
 }
 
+.settings {
+    padding-top: 50px;
+}
+
 .header {
     display: grid;
     grid-template-rows: 100px 150px;
