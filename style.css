@@ -85,7 +85,7 @@ input {
     margin: 0;
 }
 
-.name {
+.welcome .name {
   font-weight: bold;
   font-size: 2rem;
 }
@@ -166,7 +166,7 @@ font-weight: bolder;
 .side {
     display: grid;
     grid-template-columns: 300px;
-    grid-template-rows: 50px 1fr 50px 2fr;
+    grid-template-rows: 50px 450px 50px 400px;
     padding-left: 50px;
 }
 
@@ -194,4 +194,26 @@ font-weight: bolder;
     flex-wrap: wrap;
     position: relative;
     left: 10px;
+}
+
+.trending {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: white;
+    text-align: center;
+}
+
+.trending img {
+    width: 40px;
+}
+
+.people{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.people .name {
+    font-weight: bold;
 }
