@@ -24,10 +24,19 @@ h1 img {
 
  img {
    width: 25px;
+   padding-left: 20px;
 }
 
 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     list-style: none;
+    
+}
+
+li img {
+    padding-right: 10px;
 }
 
 .header {
